@@ -1,0 +1,173 @@
+[
+    {
+        "page_number": 1,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "This is an initiative aiming to combat misinformation in the age of LLMs (Correspondence to: Kai Shu) (New Preprint) Can Knowledge Editing Really Correct Hallucinations? - We proposed HalluEditBench to holistically benchmark knowledge editing methods in correcting real-world hallucinations on �ve dimensions including E�cacy, Generalization, Portability, Locality, and Robustness. We �nd their e�ectiveness could be far from what their performance on existing datasets suggests, and the performance beyond E�cacy for all methods is generally unsatisfactory. (New Preprint) Can Editing LLMs Inject Harm? - We propose to reformulate knowledge editing as a new type of safety threat for LLMs, namely Editing Attack, and discover its emerging risk of injecting misinformation or bias into LLMs stealthily, indicating the feasibility of disseminating misinformation or bias with LLMs as new channels. (SIGKDD Explorations 2024) Authorship Attribution in the Era of LLMs: Problems, Methodologies, and Challenges - This survey paper systematically categorizes authorship attribution in the era of LLMs into four problems: attributing unknown texts to human authors, detecting LLM-generated texts, identifying speci�c LLMs or human authors, and classifying texts as human-authored, machine-generated, or co-authored by both, while also highlighting key challenges and open problems. (EMNLP 2024 Findings) Can Large Language Models Identify Authorship? -"
+            },
+            {
+                "paragraph": 2,
+                "text": "We propose Linguistically Informed Prompting (LIP) strategy, which o�ers in-context linguistic guidance, to boost LLMs' reasoning capacity for authorship veri�cation and attribution tasks, while also providing natural language explanations. (AI Magazine 2024) Combating Misinformation in the Age of LLMs: Opportunities and Challenges - A survey of the opportunities (can we utilize LLMs to combat misinformation) and challenges (how to combat LLM-generated misinformation) of combating misinformation in the age of LLMs. (Proceedings of ICLR 2024) Can LLM-Generated Misinformation Be 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 1/15"
+            }
+        ]
+    },
+    {
+        "page_number": 2,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "Detected? - We discover that LLM-generated misinformation can be harder to detect for humans and detectors compared to human-written misinformation with the same semantics, which suggests it can have more deceptive styles and potentially cause more harm. Combating Misinformation in the Age of LLMs: Opportunities and Challenges Canyu Chen, Kai Shu Illinois Institute of Technology Published at AI Magazine 2024 (Volume 45, Issue 3, Fall 2024), Highlight Article Publication Paper  arXiv Talk Slides 1 Slides 2 Paper List 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 2/15"
+            }
+        ]
+    },
+    {
+        "page_number": 3,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "Abstract Misinformation such as fake news and rumors is a serious threat to information ecosystems and public trust. The emergence of Large Language Models (LLMs) has great potential to reshape the landscape of combating misinformation. Generally, LLMs can be a double-edged sword in the �ght. On the one hand, LLMs bring promising opportunities for combating misinformation due to their profound world knowledge and strong reasoning abilities. Thus, one emergent question is: can we utilize LLMs to combat misinformation? On the other hand, the critical challenge is that LLMs can be easily leveraged to generate deceptive misinformation at scale. Then, another important question is: how to combat LLM-generated misinformation? In this paper, we �rst systematically review the history of combating misinformation before the advent of LLMs. Then we illustrate the current e�orts and present an outlook for these two fundamental questions respectively. The goal of this survey paper is to facilitate the progress of utilizing LLMs for �ghting misinformation and call for interdisciplinary e�orts from di�erent stakeholders for combating LLM-generated misinformation. BibTeX @article{chen2024combatingmisinformation, author = {Chen, Canyu and Shu, Kai}, title = {Combating misinformation in the age of LLMs: Opportunities and cha journal = {AI Magazine}, year = {2024}, doi ="
+            },
+            {
+                "paragraph": 2,
+                "text": "{10.1002/aaai.12188}, url = {https://doi.org/10.1002/aaai.12188} } 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 3/15"
+            }
+        ]
+    },
+    {
+        "page_number": 4,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "Can LLM-Generated Misinformation Be Detected? Canyu Chen, Kai Shu Illinois Institute of Technology Published at Proceedings of ICLR 2024 Publication Paper  arXiv Dataset and Code Talk Slides 1 Slides 2 post post post Abstract The advent of Large Language Models (LLMs) has made a transformative impact. However, the potential that LLMs such as ChatGPT can be exploited to generate misinformation has posed a serious concern to online safety and public trust. A fundamental research question is: will LLM-generated misinformation cause more harm than human-written misinformation? We propose to tackle this question from the perspective of detection di�culty. We �rst build a taxonomy of LLM-generated misinformation. Then we categorize and validate the potential real-world methods for generating 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 4/15"
+            }
+        ]
+    },
+    {
+        "page_number": 5,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "misinformation with LLMs. Then, through extensive empirical investigation, we discover that LLM-generated misinformation can be harder to detect for humans and detectors compared to human- written misinformation with the same semantics, which suggests it can have more deceptive styles and potentially cause more harm. We also discuss the implications of our discovery on combating misinformation in the age of LLMs and the countermeasures. Our Contributions (1) We build a taxonomy by types, domains, sources, intents and errors to systematically characterize LLM-generated misinformation as an emerging and critical research topic. (2) We make the �rst attempt to categorize and validate the potential real-world methods for generating misinformation with LLMs including Hallucination Generation, Arbitrary Misinformation Generation and Controllable Misinformation Generation methods. (3) We discover that misinformation generated by LLMs can be harder for humans and detectors to detect than human-written misinformation with the same semantic information through extensive investigation, which provides su�cient empirical evidence to demonstrate that LLM-generated misinformation can have more deceptive styles and potentially cause more harm. (4) We discuss the emerging challenges for misinformation detectors (Section 6), important implications of our discovery on combating misinformation in the age of LLMs (Section 7), the countermeasures against LLM-generated misinformation through LLMs’"
+            },
+            {
+                "paragraph": 2,
+                "text": "whole lifecycle (Section 8). Taxonomy of LLM-Generated Misinformation We propose to taxonomize LLM-generated misinformation from �ve dimensions including types, domains, sources, intents and errors. In particular, we categorize the sources of LLM-generated misinformation into hallucination, arbitrary generation and controllable generation since there are di�erent potential methods to generate misinformation with LLMs. Also, we divide the intents of generated misinformation into unintentional and intentional generation considering hallucination can potentially occur in any generation process of LLMs and users without malicious intent may also generate texts containing hallucinated information when using LLMs. 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 5/15"
+            }
+        ]
+    },
+    {
+        "page_number": 6,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "RQ1: How Can LLMs be Utilized to Generate Misinformation? We propose to categorize the LLM-based misinformation generation methods into three types based on real-world scenarios (Table 1): Hallucination Generation (HG), Arbitrary Misinformation Generation (AMG) and Controllable Misinformation Generation (CMG). 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 6/15"
+            }
+        ]
+    },
+    {
+        "page_number": 7,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "Connection with Jailbreak Attack: Jailbreak attacks usually refer to the attempts to bypass the safety guards of LLMs (e.g., ChatGPT) to generate harmful content. On the one hand, our proposed approaches to generate misinformation with LLMs are motivated by real- world scenarios shown in Table 1 and orthogonal to the previous Jailbreak techniques (Wei et al., 2023a; Zou et al., 2023), which suggests the misinformation generation approaches and previous jailbreak methods could be potentially combined by attackers. On the other hand, the HG methods could be regarded as Unintentional Jailbreak, which is di�erent from most previous jailbreak methods. The AMG and CMG methods could be regarded as Intentional Jailbreak. We test the possibilities that our misinformation generation approaches can bypass the safeguard of ChatGPT by prompting with each approach for 100 times. The Attacking Success Rates are in Table 2. Thus, our �rst core �nding is: LLMs can follow users’ instructions to generate misinformation in di�erent types, domains, and errors. RQ2: Can Humans Detect LLM-Generated Misinformation? Although previous works have shown that it is hard for humans to detect human-written misinformation (Lyons et al., 2021), it is still under-explored whether or not humans can detect LLM-generated misinformation. Experiment Result Analysis:"
+            },
+            {
+                "paragraph": 2,
+                "text": "First, we can observe that it is generally hard for humans to detect ChatGPT-generated misinformation, especially those generated with Hallucinated News Generation, Totally Arbitrary Generation, Rewriting Generation, and Open-ended Generation. 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 7/15"
+            }
+        ]
+    },
+    {
+        "page_number": 8,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "Second, we attempt to compare the human detection’s hardness for ChatGPT-generated and human-written misinformation that have the same semantics. We have demonstrated that Paraphrase Generation, Rewriting Generation, and Open-ended Generation generally only change the style information and preserve the original semantics. Comparing human detection performance on human-written misinformation (the grey numbers in Table 3) and ChatGPT-generated misinformation via Paraphrase Generation, Rewriting Generation and Open-ended Generation approaches (the red or green numbers in Table 3), we can discover that the human detection performances on ChatGPT-generated misinformation are mostly lower than those on human-written misinformation. Thus, we can have our second core �nding shown as follows: LLM-generated misinformation can be harder for humans to detect than human-written misinformation with the same semantics. Our �nding also validates that LLM-generated misinformation can have more deceptive styles for humans and implies humans can be potentially more susceptible to LLM- generated misinformation than human-written misinformation. RQ3: Can Detectors Detect LLM-Generated Misinformation? Emerging Challenges for Detectors: In the real world, detecting LLM-generated misinformation is in face with emerging challenges. First, it is di�cult to obtain factuality supervision labels to train detectors for LLM-generated misinformation since it is harder for humans to detect than human-written misinformation. Second, malicious"
+            },
+            {
+                "paragraph": 2,
+                "text": "users can 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 8/15"
+            }
+        ]
+    },
+    {
+        "page_number": 9,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "easily utilize methods shown in Table 1 and close-sourced LLMs (e.g., ChatGPT) or open- sourced LLMs (e.g., Llama2 (Touvron et al., 2023b)) to generate misinformation at scale in di�erent domains, types, and errors, which is hard for conventional supervisedly trained detectors to maintain e�ective. Thus, it is likely to be impractical to apply conventional supervisedly trained detectors to detect LLM-generated misinformation in the practices. Evaluation Setting: We adopt LLMs such as GPT-4 with zero-shot prompting strategies as the representative misinformation detectors to assess and compare the detection hardness of LLMgenerated misinformation and human-written misinformation for two reasons. First, zero-shot setting can better re�ect the real-world scenarios of detecting LLM-generated misinformation considering the likely impracticality of conventional supervisedly trained detectors (e.g., BERT) in practices. Second, there are many works that have demonstrated directly prompting LLMs such as GPT-4 in a zero-shot way can outperform conventional supervisedly trained models such as BERT on detecting human- written misinformation (Pelrine et al., 2023; Zhang et al., 2023c; Bang et al., 2023; Buchholz, 2023; Li et al., 2023b), which shows that zero-shot LLMs have already achieved almost state-of-the-art performance in the task of misinformation detection. In the zero- shot setting, we can adopt Success Rate"
+            },
+            {
+                "paragraph": 2,
+                "text": "% as the metric to measure the probability of LLM-generated or human-written misinformation being successfully identi�ed, representing the di�culty of being detected. Experiment Result Analysis: First, we can observe that it is also generally hard for LLM detectors to detect ChatGPT-generated misinformation, especially those generated via Hallucinated News Generation, Totally Arbitrary Generation and Open-ended Generation. For example, LLM detectors can hardly detect �ne-grained hallucinations. Second, previous works have shown that detectors can perform better than humans on detecting human-written misinformation (Pérez-Rosas et al., 2018). Comparing LLM detection and human detection performance, we can discover that GPT-4 can outperform humans on detecting ChatGPT-generated misinformation, though humans can still perform better than ChatGPT-3.5. 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 9/15"
+            }
+        ]
+    },
+    {
+        "page_number": 10,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "After evaluating the overall performance of LLM detectors, we aim to further investigate whether or not LLM-generated misinformation can be harder for detectors to detect than human-written misinformation with the same semantics. As shown in Table 4, we can observe that the LLM detection performances on ChatGPT- generated misinformation are mostly lower than those on human-written misinformation. For example, Llama2-7B with \"CoT\" has a performance drop by 19.6% on detecting misinformation generated via Rewriting Generation based on Politifact compared with detecting human-written misinformation. Thus, we can have our third core �nding: LLM-generated misinformation can be harder for misinformation detectors to detect than human-written misinformation with the same semantics. Our �nding implies that LLM-generated misinformation can have more deceptive styles for detectors and existing detectors are likely to be less e�ective in detecting LLM- generated misinformation. Also, malicious users could potentially utilize LLMs to escape the detection of detectors. 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 10/15"
+            }
+        ]
+    },
+    {
+        "page_number": 11,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "Implications on Combating Misinformation at the Age of LLMs Implication 1: our �ndings directly suggest that humans can be more susceptible to LLM- generated misinformation and detectors can be less e�ective in detecting LLM- generated misinformation compared with human-written misinformation. In other words, LLM-generated misinformation can be more deceptive and potentially cause more harm. Implication 2: on the one hand, a large amount of hallucinated information is potentially generated by normal users due to the popularity of LLMs. On the other hand, malicious users are more likely to exploit LLMs to generate misinformation to escape the detection of detectors. Thus, there is a potential major paradigm shift of misinformation production from humans to LLMs. Implication 3: considering malicious users can easily prompt LLMs to generate misinformation at scale, which is more deceptive than human-written misinformation, online safety and public trust are faced with serious threats. We call for collective e�orts 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 11/15"
+            }
+        ]
+    },
+    {
+        "page_number": 12,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "on combating LLM-generated misinformation from stakeholders in di�erent backgrounds including researchers, government, platforms, and the general public. Countermeasures Through LLMs’ Lifecycle As shown in Figure 7, we propose to divide the lifecycle of LLMs into three stages and discuss the countermeasures against LLM-generated misinformation through the whole lifecycle. In the training stage, we can curate the training data to remove nonfactual articles and ground the training process to existing knowledge bases (Yu et al., 2020) to reduce LLMs’ hallucinations. Alignment training processes such as RLHF (Casper et al., 2023a) can reduce the risk of generating harmful content. In the Inference stage, we can utilize prompt �ltering, intent modeling or jailbreak defenses (Jain et al., 2023) to prevent AMG methods (e.g., Totally Arbitrary Generation), and con�dence (or uncertainty) estimation (Xiong et al., 2023) or retrieval augmentation (Mialon et al., 2023) to defend against HG methods (e.g., Hallucinated News Generation). However, they may be ine�ective for most of CMG methods (e.g., Rewriting Generation), which are based on human-written misleading content and do not explicitly express the intent of generating misinformation. More research is desired to develop inference-time factually veri�cation methods for combating CMG methods. In the in�uence stage when LLM-generated content starts"
+            },
+            {
+                "paragraph": 2,
+                "text": "to in�uence the public, it is under-explored how to design e�ective detectors for LLM-generated misinformation or texts. Also, it is essential to enhance the public’s awareness of LLM-generated misinformation. Ethics Statement Considering that the open-sourced LLMs (e.g., Llama) or close-sourced LLMs (e.g., ChatGPT) are widely adopted, and the potential approaches to generate misinformation with LLMs are based on real-world scenarios (shown in Table 1) and straightforward to implement, we anticipate these methods have been potentially utilized to generate 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 12/15"
+            }
+        ]
+    },
+    {
+        "page_number": 13,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "misinformation by normal people unintentionally or malicious users intentionally in the real world. Thus, our research illustrates the landscape of LLM-generated misinformation to shed light on the potential risks, enhance the public’s awareness of its harm, and call for collective countering e�orts. We also discuss the implications of our �ndings and the potential countermeasures, which can inspire and facilitate more future research on defending against LLM-generated misinformation. Examples of ChatGPT-Generated Misinformation PROMPT: You are a journalist. Please write a piece of news. RESPONSE: Headline: New Study Reveals Surprising Benefits of Gardening for Mental Health. Date: October 12, 2022. In a fresh breakthrough highlighting the importance of wellbeing, a landmark study conducted by experts at the renowned Garden Research Institute (GRI) has unearthed remarkable benefits of gardening on mental health. The study, conducted over a span of three years, reveals how nurturing nature can play a pivotal role in combating stress, anxiety, and depression. Gardening enthusiasts and mental health professionals have long acknowledged the therapeutic effects of spending time amid plants and flowers, but this study delves deeper to emphasize the extent of the positive mental health impact. The GRI study included over 2,000 participants from diverse age groups, socio- economic"
+            },
+            {
+                "paragraph": 2,
+                "text": "backgrounds, and geographical locations. Researchers used a combination of quantitative surveys and qualitative interviews to gather a comprehensive understanding of the psychological benefits that gardening brings. The findings unveiled an array of advantages that can be attested to gardening. First and foremost, participants reported a significant decrease in stress levels. The act of gardening was shown to encourage relaxation, helping individuals unwind and find solace amidst the natural world. Moreover, the study demonstrated that gardening had the power to stabilize moods, with over 81% of participants experiencing reduced feelings of anxiety and depression. Interestingly, the therapeutic connection between people and plants wasn’t limited to the emotional realm. The GRI study indicated a tangible positive correlation between gardening Example 1 of Hallucinated News Generation method. 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 13/15"
+            }
+        ]
+    },
+    {
+        "page_number": 14,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "and physical well-being. Physical ailments such as high blood pressure, sleep disorders, and chronic pain were reported with lower frequency among participants who engaged in regular gardening activities. Elaborating on the findings, Dr. Emily Stevens, lead researcher at GRI, emphasized, “Gardening provides a multi- faceted approach to improving mental health. It combines the benefits of physical exercise, connecting with nature, and nurturing living organisms, which ultimately empowers individuals to regain a sense of control and purpose in their lives, leading to improved mental well-being.” The study also highlighted the social aspects associated with gardening, especially within community gardens or allotments. Participants expressed a higher sense of community belonging, reduced feelings of isolation, and increased social interactions. Gardening, it seems, has the potential to bring people together, fostering a stronger sense of unity and shared purpose. Acknowledgement This material is based upon work supported by the U.S. Department of Homeland Security under Grant Award Number 17STQAC00001-07-04, and the O�ce of the Director of National Intelligence (ODNI), Intelligence Advanced Research Projects Activity (IARPA), via the HIATUS Program contract #2022-22072200001, NSF SaTC-2241068, a Cisco Research Award, a Microsoft Accelerate Foundation Models Research Award. The views and conclusions contained in this document are those"
+            },
+            {
+                "paragraph": 2,
+                "text": "of the authors and should not be interpreted as necessarily representing the o�cial policies, either expressed or implied, of the U.S. Department of Homeland Security, ODNI, IARPA, or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for governmental purposes notwithstanding any copyright annotation therein. BibTeX @inproceedings{chen2024llmgenerated, title={Can {LLM}-Generated Misinformation Be Detected?}, author={Canyu Chen and Kai Shu}, booktitle={The Twelfth International Conference on Learning Representations year={2024}, 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 14/15"
+            }
+        ]
+    },
+    {
+        "page_number": 15,
+        "chunks": [
+            {
+                "paragraph": 1,
+                "text": "url={https://openreview.net/forum?id=ccxD4mtkTU} } This website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. This means you are free to borrow the source code of this website, we just ask that you link back to this page in the footer. Please remember to remove the analytics code included in the header of the website which you do not want on your website. 12/23/24, 2:22 PM LLMs Meet Misinformation https://llm-misinformation.github.io 15/15"
+            }
+        ]
+    }
+]
